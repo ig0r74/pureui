@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+<title>Layout Examples &ndash; Pure</title>
+<link rel="stylesheet" href="css/pure-min.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="css/uiscript.min.js"></script>
+
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="css/grids-responsive-min.css">
+<!--<![endif]-->
+
+</head>
+<body>
+
+<div class="pure-g">
+<div class="pure-u-1">
+<script type="text/x-uiscript">
+    //Hamburger menu
+    on click "#gamburger" toggle class "open"
+    //Regular menu
+    on click "li" toggle class "open"
+</script>
+<a id="gamburger" class="visible-sm" href="#">
+  <span></span>
+  <span></span>
+  <span></span>
+</a>
+<div class="pure-menu pure-menu-open pure-menu-horizontal">
+    <a href="#" class="pure-menu-heading">Site Title</a>
+    <ul>
+        <li class="pure-menu-selected"><a href="#">Главная</a></li>
+        <li><a href="#" class="more">О компании</a>
+            <ul>
+                <li><a href="#">Flickr</a></li>
+                <li><a href="#">Messenger</a></li>
+                <li><a href="#">Messenger for a youre phone</a></li>
+                <li><a href="#">Sports</a>
+            </ul>
+        </li>
+        <li><a href="#">Галерея</a></li>
+        <li><a href="#" class="more">Продукция</a>
+            <ul>
+                <li><a href="#">Flickr</a></li>
+                <li><a href="#">Messenger</a></li>
+                <li><a href="#">Messenger for a youre phone</a></li>
+                <li><a href="#">Sports</a>
+            </ul>
+        </li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+</div>
+</div>
+</div>
+
+<div class="pure-g">
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <div class="l-box">
+            <h3>Lorem Ipsum</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+        </div>
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <div class="l-box">
+            <h3>Dolor Sit Amet</h3>
+            <p>
+                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+            </p>
+        </div>
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <div class="l-box">
+            <h3>Proident laborum</h3>
+            <p>
+                In culpa qui officia deserunt mollit anim id est laborum. incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+        </div>
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <div class="l-box">
+            <h3>Praesent consectetur</h3>
+            <p>
+                   <button class="button-success pure-button">Success Button</button>
+    <button class="button-error pure-button">Error Button</button>
+    <button class="button-warning pure-button">Warning Button</button>
+    <button class="button-secondary pure-button">Secondary Button</button>
+            </p>
+        </div>
+    </div>
+
+    <div class="pure-u-1">
+        <img class="pure-img" src="https://s3.amazonaws.com/ooomf-com-files/wjNV6gWuQkqeuH8txHc9_sylwiabartyzel_unsplash_tatry_03.jpg" alt="By Sylwia Bartyzel from unsplash.com">
+    </div>
+
+    <div class="pure-u-1 pure-u-md-2-5">
+        <div class="l-box">
+            <h3>Two-Fifth Column</h3>
+<form class="pure-form pure-form-aligned">
+    <fieldset>
+        <div class="pure-control-group">
+            <label for="name">Username</label>
+            <input id="name" type="text" placeholder="Username">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Password">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" placeholder="Email Address">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="foo">Supercalifragilistic Label</label>
+            <input id="foo" type="text" placeholder="Enter something here...">
+        </div>
+
+        <div class="pure-controls">
+            <label for="cb" class="pure-checkbox">
+                <input id="cb" type="checkbox"> I've read the terms and conditions
+            </label>
+
+            <button type="submit" class="pure-button pure-button-primary">Submit</button>
+        </div>
+    </fieldset>
+</form>
+        </div>
+    </div>
+
+    <div class="pure-u-1 pure-u-md-3-5">
+        <div class="l-box">
+            <h3>Three-Fifth Column</h3>
+<form class="pure-form">
+    <fieldset>
+        <legend>A compact inline form</legend>
+
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+
+        <label for="remember">
+            <input id="remember" type="checkbox"> Remember me
+        </label>
+
+        <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+    </fieldset>
+</form>
+        </div>
+    </div>
+
+    <div class="pure-u-1 pure-u-md-2-5">
+        <table class="pure-table pure-table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Honda</td>
+            <td>Accord</td>
+            <td>2009</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Toyota</td>
+            <td>Camry</td>
+            <td>2012</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Hyundai</td>
+            <td>Elantra</td>
+            <td>2010</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+    <div class="pure-u-1 pure-u-md-3-5">
+        <button class="button-xsmall pure-button">Extra Small Button</button>
+    <button class="button-small pure-button">Small Button</button>
+    <button class="pure-button">Regular Button</button>
+    <button class="button-large pure-button">Large Button</button>
+    <button class="button-xlarge pure-button">Extra Large Button</button>
+
+<ul class="pure-paginator">
+    <li><a class="pure-button prev" href="#">&#171;</a></li>
+    <li><a class="pure-button" href="#">1</a></li>
+    <li><a class="pure-button pure-button-active" href="#">2</a></li>
+    <li><a class="pure-button" href="#">3</a></li>
+    <li><a class="pure-button" href="#">4</a></li>
+    <li><a class="pure-button" href="#">5</a></li>
+    <li><a class="pure-button next" href="#">&#187;</a></li>
+</ul>
+    </div>
+</div>
+
+</body>
+</html>
