@@ -12,6 +12,7 @@ Demo: http://ig0r74.github.io/pureui/
  
 ####Added classes:
 .hide-sm, .hide-md, .hide-lg, .hide-xl
+
 .visible-sm, .visible-md, .visible-lg, .visible-xl
 
 https://github.com/qweek/uiscript
