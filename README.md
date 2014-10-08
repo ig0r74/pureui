@@ -10,10 +10,12 @@ Demo: http://ig0r74.github.io/pureui/
 * buttons
 * two-level top menu
  
-####Added classes:
+**Added classes:**
     .hide-sm, .hide-md, .hide-lg, .hide-xl
 
     .visible-sm, .visible-md, .visible-lg, .visible-xl
+
+**Based on:**
 
 https://github.com/qweek/uiscript
 
