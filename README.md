@@ -8,7 +8,8 @@ Demo: http://ig0r74.github.io/pureui/
 ####Features:
 * hamburger menu on small screen's
 * buttons
-* two-level top menu
+* dropdown menu works without YUI
+* [uiscript] (https://github.com/qweek/uiscript) (1KB)
  
 **Added classes:**
 
